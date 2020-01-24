@@ -17,5 +17,5 @@ script:
   
   - cd TaskOne
   - javac BasicGui.java
-  - java Program 
+  - java BasicGui 
   - cd ..
