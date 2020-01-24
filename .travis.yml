@@ -13,6 +13,8 @@ env:
 - TERM=dumb
 
 script:
+  - chmod +x ./gradlew
+  
   - cd TaskOne
   - javac BasicGui.java
   - java Program 
